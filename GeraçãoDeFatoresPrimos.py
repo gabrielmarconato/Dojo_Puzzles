@@ -1,8 +1,12 @@
 import sys
 
-valor_dado = int(input("digite um valor inteiro positivo e diremos seus fatores primos: "))
-if valor_dado < 1:
-    print("esse é um número inválido, ainda só trabalhamos com números positivos diferentes de zero")
+try: 
+    valor_dado = int(input("digite um valor inteiro positivo e diremos seus fatores primos: "))
+    if valor_dado < 1:
+        print("esse é um número inválido, ainda só trabalhamos com números positivos diferentes de zero")
+        sys.exit(0)
+except ValueError:
+    print("Tente digitar um número inteiro desta vez!")
     sys.exit(0)
     
 
