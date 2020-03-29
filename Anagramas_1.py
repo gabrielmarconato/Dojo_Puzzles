@@ -6,4 +6,6 @@ lista_letras = sorted(list(string_dada))
 
 
 
-print(lista_letras)
+
+
+recursao(lista_letras)
