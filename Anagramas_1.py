@@ -8,4 +8,4 @@ lista_letras = sorted(list(string_dada))
 
 
 
-recursao(lista_letras)
+
